@@ -1,0 +1,32 @@
+<p>page2 works!</p>
+<!-- <input type="hidden" #selection>
+<a (click)="selection.value = 'test11'">ลองกดดูดิ</a>
+<div class="terminal" [ngSwitch]="selection.value">
+    <div *ngSwitchDefault> test1 </div>
+    <div *ngSwitchCase="'test11'"> test2 </div>
+
+
+</div> -->
+<input type="hidden" #selection>
+<button
+    style="width: 100px; margin-top: 50px; background-origin: padding-box; justify-content: center; text-align: center;"
+    (click)="selection.value = 'test2'">
+    ลองกดดูดิ
+</button>
+
+<button
+    style="width: 100px; margin-top: 50px; background-origin: padding-box; justify-content: center; text-align: center;"
+    (click)="selection.value = 'test3'">
+    ลองกดดูดิ2
+</button>
+
+
+<div class="terminal" [ngSwitch]="selection.value">
+    <div *ngSwitchDefalut> แค่อยากเป็นหมอลำ</div>
+    <div *ngSwitchCase="'test2'">
+        <div *ngFor="let item of onetwo">{{ item.one }}</div>
+      
+    </div>
+    <div *ngSwitchCase="'test3'"><div >{{ onetwo | json }}</div></div>
+
+</div>

@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\Depoly_web\02</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\Depoly_web\03</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -79,7 +79,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/Api_host_web.dll">
-      <publishTime>08/14/2021 13:40:13</publishTime>
+      <publishTime>08/14/2021 19:33:09</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>08/14/2021 10:27:22</publishTime>
@@ -307,7 +307,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2021 10:27:24</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/14/2021 13:39:54</publishTime>
+      <publishTime>08/14/2021 19:36:41</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/14/2021 10:26:19</publishTime>

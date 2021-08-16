@@ -17,7 +17,7 @@ namespace Api_host_web.Controllers
         DataTable res;
         DataTable res2;
         [Route("User")]
-        [HttpGet]
+        [HttpPost]
         public IHttpActionResult GetLogin(UserAcc user)
         {
             res = new DataTable();
